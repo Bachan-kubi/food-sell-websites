@@ -249,7 +249,7 @@ hr {
 }
 .forms{
   width: 60%;
-  margin: 25px auto;
+  margin: 12rem auto;
   text-align: center;
 }
 form{
@@ -258,7 +258,7 @@ form{
 .forms input{
   width: 384px;
   padding: 15px;
-  margin: 10px;
+  margin: 20px 10px;
   border-radius: 5px;
 }
 .forms .book-btn{
@@ -266,6 +266,7 @@ form{
   background-color:#ffe001;
   padding: 15px;
   font-size: 20px;
+  cursor: pointer;
 }
 footer{
   background-color: #ffe001;
@@ -277,8 +278,6 @@ footer .left-footer{
   max-width: 50%;
   padding: 20px;
 }
-
-
 
 footer .right-foot i{
   color: black;
