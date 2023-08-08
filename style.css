@@ -1,0 +1,160 @@
+@import url("https://fonts.googleapis.com/css2?family=Fredericka+the+Great&family=Montserrat:wght@700&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+li {
+  list-style-type: none;
+  margin: 6px;
+}
+a {
+  text-decoration: none;
+}
+header {
+  background-image: url(./img/background-yellow.jpg),
+    url(./img/background-rectangle.jpg);
+  height: 100vh;
+  background-repeat: no-repeat;
+  max-inline-size: 100%;
+  position: relative;
+  overflow: hidden;
+}
+header .logo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 95%;
+  margin: 0 auto;
+  padding: 10px;
+}
+.delivery {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 10px;
+}
+.logo i {
+  font-size: 50px;
+}
+nav ul {
+  display: flex;
+  justify-content: flex-end;
+}
+li a {
+  font-size: 21px;
+  font-weight: bold;
+  margin-right: 4.8rem;
+  text-align: center;
+  /* padding-right: 50px; */
+}
+ul li:last-child {
+  margin-left: 20px;
+}
+ul li a:hover {
+  border-bottom: 2px solid red;
+}
+header .banner {
+  display: flex;
+  justify-content: space-between;
+}
+header .left {
+  max-width: 50%;
+  margin-left: 5.8rem;
+  margin-top: 2.5rem;
+  padding: 2rem;
+  font-size: 25px;
+  text-align: center;
+}
+.left img {
+  position: absolute;
+  top: 145px;
+  left: 95px;
+}
+header .left h2 {
+  font-family: "Fredericka the Great", sans-serif;
+  font-size: 55px;
+}
+header .right {
+  max-width: 50%;
+}
+header .right img{
+    max-block-size: 100%;
+    margin-top: 5px;
+    zoom: 10;
+}
+header .banner .right img {
+  position: absolute;
+  top: 0;
+  right: 10px;
+  max-inline-size: 100%;
+}
+.are {
+  display: flex;
+  gap: 1rem;
+}
+hr {
+  margin-top: 2.9rem;
+  background-color: #ccb301;
+  color: #ccb301;
+  height: 3px;
+}
+.hour{
+    display: flex;
+    gap: 10px;
+    margin-top: 1.8rem;
+    padding: 20px;
+}
+.banner .hour h3{
+    font-size: 30px;
+    font-weight: 500;
+    font-family: "Fredericka the Great", sans-serif;
+
+}
+.banner .hour h2{
+    font-size: 60px;
+    font-weight: 500;
+}
+.order-btn{
+    margin-top: 15px;
+    padding: 10px;
+    width: 45%;
+    background-color: transparent;
+    font-size: 18px;
+}
+.etc .leaf-two {
+    position: absolute;
+    bottom: 9rem;
+    right: 8rem;
+}
+.etc .tomato{
+    position: absolute;
+    bottom: 5rem;
+    right: 45rem;
+}
+.etc .pasta{
+    position: absolute;
+    top: 10rem;
+    right: 42rem;
+}
+.container{
+  position: relative;
+}
+.spehgeti{
+    position: absolute;
+    bottom: -13rem;
+    left: 0;
+}
+/* landing page is finished */
+/* choose and enjoy pages started */
+/* choose and enjoy pages finished */
+/* responsive header */
+@media only screen and (max-width: 578px) {
+  .delivery {
+    display: none;
+  }
+  nav {
+    display: none;
+  }
+}
