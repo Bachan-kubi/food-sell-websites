@@ -143,11 +143,29 @@ hr {
 }
 .spehgeti{
     position: absolute;
-    bottom: -13rem;
+    bottom: -3rem;
     left: 0;
 }
 /* landing page is finished */
 /* choose and enjoy pages started */
+.choose{
+  margin-top: 8rem;
+}
+.choose .choose-text{
+  text-align: center;
+  max-width: 80%;
+  margin: 1rem auto;
+}
+.choose .choose-text h2{
+  font-family: "Fredericka the Great", sans-serif;
+  font-size: 35px;
+  text-transform: uppercase;
+  font-weight: 500;
+  margin: 1rem;
+}
+.choose .choose-text p{
+  font-family: "Fredericka the Great", sans-serif;
+}
 /* choose and enjoy pages finished */
 /* responsive header */
 @media only screen and (max-width: 578px) {
