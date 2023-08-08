@@ -141,15 +141,16 @@ hr {
 .container{
   position: relative;
 }
-.spehgeti{
+.container .spehgeti{
     position: absolute;
-    bottom: -3rem;
+    top: 33rem;
     left: 0;
 }
 /* landing page is finished */
 /* choose and enjoy pages started */
 .choose{
   margin-top: 8rem;
+  height: 100vh;
 }
 .choose .choose-text{
   text-align: center;
